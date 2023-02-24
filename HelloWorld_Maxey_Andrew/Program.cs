@@ -8,6 +8,7 @@ namespace HelloWorld_Maxey_Andrew
         {
             Console.WriteLine("What is your first name?");
             string firstName = Console.ReadLine();
+            string secoundName = Console.ReadLine();
 
         }
     }
