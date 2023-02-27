@@ -7,9 +7,10 @@ namespace HelloWorld_Maxey_Andrew
         static void Main(string[] args)
         {
             Console.WriteLine("What is your first name?");
-            string firstName = Console.ReadLine();
-            string secoundName = Console.ReadLine();
-
+            Console.WriteLine("What is your last name?");
+            string firstname = Console.ReadLine();
+            string lastname = Console.ReadLine();
+            Console.WriteLine($"Nice to meet you {firstname} {lastname}!");
         }
     }
 }
